@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+   
+    <p id="description"> Simple calculator with using Dom</p>
+    <div id="main">
+        <div class="calculator">
+            <input type="text" placeholder=0 id="result">
+            <button  id="clear" onclick="Clear()">AC</button>
+            <button  id="del "onclick="del()">DEL</button>
+            <button id="mod" onclick="display('%')">%</button>
+            <button id="div" onclick="display('/')">/</button>
+            <button id="7" onclick="display('7')">7</button>
+            <button id="8" onclick="display('8')">8</button>
+            <button id="9" onclick="display('9')">9</button>
+            <button id="mul" onclick="display('*')">*</button>
+            <button id="4" onclick="display('4')">4</button>
+            <button id="5" onclick="display('5')"">5</button>
+            <button id="6" onclick="display('6')">6</button>
+            <button  id="subtract"onclick="display('-')">-</button>
+            <button  id="1"onclick="display('1')">1</button>
+            <button  id="2"onclick="display('2')">2</button>
+            <button id="3" onclick="display('3')">3</button>
+            <button  id="add"onclick="display('+')">+</button>
+            <button  id="0"onclick="display('0')">0</button>
+            <button id="dot" onclick="display('.')">.</button>
+            <button id="equal" onclick="calculate()"   class="equal">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <!-- <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script> -->
+</body>
+</html>
